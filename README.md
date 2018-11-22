@@ -1,4 +1,4 @@
-# PyPID
+# Python-PID
 Python implementation of a PID controller.
 
 Libraries needed to use this module: numpy and matplotlib. Both can be installed via "pip install" through the command line.
