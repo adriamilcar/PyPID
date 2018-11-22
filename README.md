@@ -4,7 +4,7 @@ Python implementation of a PID controller.
 Libraries needed to use this module: numpy and matplotlib. Both can be installed via "pip install" through the command line.
 
 The module is highly intuitive and has been designed for high-level usage. The user only has to declare the PID object, along with the reference value, and the corresponding gains (proportional, derivative and integral): 
-PID(ref, pGain, dGain, iGain). 
+PID = PID(ref, pGain, dGain, iGain). 
 
 Then, for each iteration, the new input is passed through an update function, which in turn returns the output of the controller:
 output=PID.update(input). 
